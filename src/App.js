@@ -12,6 +12,8 @@ import AboutComponent from './Components/AboutComponent';
 import RaiseTicketComponent from './Components/RaiseTicketComponent';
 import FeedbackComponent from './Components/FeedbackComponent';
 import ViewTickets from './Components/ViewTickets';
+import FaqComponent from './Components/FaqComponent';
+import ContactComponent from './Components/ContactComponent';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
     <Route path="/about" element={<AboutComponent/>} />
     <Route path="/feedback" element={<FeedbackComponent/>} />
     <Route path="/viewTicket" element={<ViewTickets/>} />
+    <Route path="/faq" element={<FaqComponent/>} />
+    <Route path="/contact" element={<ContactComponent/>} />
    </Routes>
    
    

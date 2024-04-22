@@ -32,14 +32,12 @@ export default function HeaderComponent()
                   <li>
                    <Link to="/about"> About</Link>
                   </li>
+                
                   <li>
-                    <Link>Doctors</Link>
+                    <Link to="/contact">Contact</Link>
                   </li>
                   <li>
-                    <Link>Contact</Link>
-                  </li>
-                  <li>
-                    <Link>FAQ</Link>
+                    <Link to="/faq">FAQ</Link>
                   </li>
                 </ul>
               </div>

@@ -1467,7 +1467,7 @@ body{
 	border-radius: 3px;
 	margin: 0 0 0 -52px;
 	margin-top: 49px;
-	box-sizing: ;
+	/* box-sizing: ; */
 }
 .testimonials .owl-dots .owl-dot {
 	display: inline-block;
@@ -3384,7 +3384,7 @@ body{
 	transform:scale(1);
 }
 .contact-us .contact-info{
-	margin-top:50px;
+	margin-top:10px;
 }
 .contact-us .single-info {
 	background: #1a76d1;

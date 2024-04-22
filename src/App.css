@@ -8,6 +8,22 @@
   pointer-events: none;
 }
 
+.accordion-item {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+.card-header {
+  background-color: #f8f9fa;
+}
+.card-header h5 {
+  margin-bottom: 0;
+}
+.card-body {
+  padding: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
