@@ -9,6 +9,7 @@ import SliderComponent from "./SliderComponent";
 export default function MediPlusComponent() {
   return (
     <div className="Home">
+    
       <HeaderComponent />
       <SliderComponent />
       <ScheduleComponent />

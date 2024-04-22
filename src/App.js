@@ -14,6 +14,7 @@ import FeedbackComponent from './Components/FeedbackComponent';
 import ViewTickets from './Components/ViewTickets';
 import FaqComponent from './Components/FaqComponent';
 import ContactComponent from './Components/ContactComponent';
+import ErrorComponent from './Components/ErrorComponent';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
     <Route path="/viewTicket" element={<ViewTickets/>} />
     <Route path="/faq" element={<FaqComponent/>} />
     <Route path="/contact" element={<ContactComponent/>} />
+    <Route path="*" element={<ErrorComponent/>}></Route>
    </Routes>
    
    

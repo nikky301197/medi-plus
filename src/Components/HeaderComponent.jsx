@@ -48,7 +48,7 @@ export default function HeaderComponent()
                   </li>
                   <li>
                     <i className="fa fa-envelope"></i>
-                    <Link href="mailto:support@yourmail.com">
+                    <Link href="mailto:support@mail.com">
                       mediplus-support@mail.com
                     </Link>
                   </li>
@@ -79,9 +79,7 @@ export default function HeaderComponent()
                           </Link>
                          
                         </li>
-                        <li>
-                          <Link>Doctos </Link>
-                        </li>
+                       
                         <li>
                           <Link to="/service">Services </Link>
                         </li>
@@ -99,15 +97,10 @@ export default function HeaderComponent()
                           <Link to="/raiseQuery">
                           Raise Query
                           </Link>
-                          {/* <Link>
-                            Raise Query 
-                            <i className="icofont-rounded-down"></i>
-                          </Link> */}
-                          {/* <ul className="dropdown">
-                            <li>
-                              <a href="blog-single.html">Blog Details</Link>
-                            </li>
-                          </ul> */}
+                         
+                        </li>
+                        <li>
+                          <Link to="/contact">Contact Us</Link>
                         </li>
                         {/* <li>
                           <a href="contact.html">Contact Us</Link>
@@ -118,7 +111,7 @@ export default function HeaderComponent()
                 </div>
                 <div className="col-lg-2 col-12">
                   <div className="get-quote">
-                    <Link  className="btn">
+                    <Link to="/"  className="btn">
                       Book Appointment
                     </Link>
                   </div>
