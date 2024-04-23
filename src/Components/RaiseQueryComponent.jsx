@@ -11,7 +11,7 @@ export default function RaiseQueryComponent() {
           <div className="bread-inner">
             <div className="row">
               <div className="col-12">
-                <h2>Raise Query</h2>
+                <h2 className="p-2">Raise Query</h2>
                 <h7 style={{ color: "white"}}>
                 Your health and well-being are our top priority, and we are here to assist you every step of the way.
                  
