@@ -6,7 +6,8 @@ export default function RaiseQueryComponent() {
   return (
     <div className="raiseQuery">
       <HeaderComponent />
-      <div className="breadcrumbs overlay">
+      <div 
+       className="breadcrumbs overlay">
         <div className="container">
           <div className="bread-inner">
             <div className="row">

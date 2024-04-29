@@ -1,14 +1,26 @@
+import { useNavigate } from "react-router-dom";
+
 export default function ErrorComponent() {
+  const navigate = useNavigate();
   return (
     <div>
       <section className="">
         <div className="container" style={{ textAlign: "center" }}>
-          <div className="row p-5">
-            <div className="col-lg-12 col-12 ">
-             <h1 style={{fontSize:150 , fontWeight: "bold" , paddingBottom:20    , color:"#1a76d1"}}>404</h1>
-              <h5 style={{fontSize:30}}>Oop's sorry we can't find that page!</h5>
-            
+          <div className="row ">
+            <div className=" col-12">
+              <img alt="error page " src="/img/Oops! 404 Error with a broken robot-cuate.png"  height={10} width={500}/>
+              
+              <button className="btn mt-lg-5 " 
+              onClick={(event)=>{
+                event.preventDefault();
+                navigate("/")
+              }}
+              
+              >Go back to Home</button> 
             </div>
+            {/* <div className="col-12">
+            <button className="btn" >Go back to Home</button>
+            </div> */}
           </div>
         </div>
       </section>
