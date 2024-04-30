@@ -12,6 +12,9 @@ export default function HeaderComponent() {
     authContext.setAuthenticated(false);
     authContext.setToken("");
     authContext.setUsername("");
+    sessionStorage.removeItem('username');
+    sessionStorage.removeItem('token');
+    sessionStorage.removeItem('isAuthenticated');
     navigate("/login");
   }
   function register(event)

@@ -46,7 +46,7 @@ export default function RegistrationComponent() {
         .catch((error) => {
           console.log(error);         
           authContext.setAuthenticated(false);
-          alert("Patient Registeration Failed : E-mail already exist!");
+          alert(error.response.data.message);
         });
     }
   }

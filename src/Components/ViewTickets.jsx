@@ -74,26 +74,23 @@ export default function ViewTickets() {
         .then((result) => {
           console.log("Deleting ticket with ID:" + ticketid);
           alert("Ticket no. " + ticketid + " deleted successfully.");
-          loadAllTickets()
+          loadAllTickets();
         })
         .catch((error) => {
           console.log(error);
         });
     } else {
-      navigate("/viewTicket")
+      navigate("/viewTicket");
     }
   }
 
-  function raiseTicket(event)
-  {
-    navigate("/raiseTicket")
+  function raiseTicket(event) {
+    navigate("/raiseTicket");
   }
   return (
     <div>
       <HeaderComponent />
-      <div class="">
-     
-      </div>
+      <div class=""></div>
 
       <section className="pl-5 pr-5 pt-1 pb-5">
         <div className="container-fluid ">
@@ -298,16 +295,9 @@ export default function ViewTickets() {
               <></>
             )}
             {ticketList.length == 0 ? (
-              <div
-                className=" row col-12  d-flex  justify-content-center "
-              
-              >
+              <div className=" row col-12  d-flex  justify-content-center ">
                 <div className=" col-lg-8 col-12 ">
-                  <img
-                    src="img/No data-amico.png"
-                    width={500}
-                   
-                  />
+                  <img src="img/No data-amico.png" width={500} />
                 </div>
                 <div className="  col-lg-1 col-12   d-flex flex-column align-items-center justify-content-center ">
                   <h1
@@ -316,7 +306,10 @@ export default function ViewTickets() {
                   >
                     {" "}
                     Ticket Not Found
-                    <button className="btn" onClick={raiseTicket}> Raise Query</button>
+                    <button className="btn" onClick={raiseTicket}>
+                      {" "}
+                      Raise Query
+                    </button>
                   </h1>
                 </div>
               </div>
